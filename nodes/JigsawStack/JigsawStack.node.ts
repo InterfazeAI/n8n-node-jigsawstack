@@ -1,7 +1,6 @@
 import {
   INodeType,
   INodeTypeDescription,
-  NodeConnectionType,
 } from 'n8n-workflow';
 import { resources } from './resources';
 
