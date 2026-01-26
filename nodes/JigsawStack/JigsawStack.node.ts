@@ -26,12 +26,12 @@ export class JigsawStack implements INodeType {
     subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
     inputs: [
       {
-        type: NodeConnectionType.Main,
+        type: 'main',
       },
     ],
     outputs: [
       {
-        type: NodeConnectionType.Main,
+        type: 'main',
       },
     ],
     credentials: [
